@@ -1,0 +1,230 @@
+inherited CadModeloF1: TCadModeloF1
+  inherited PageControl1: TPageControl
+    ActivePage = TabSheet2
+    TabIndex = 1
+    inherited TabSheet2: TTabSheet
+      object Label2: TLabel[2]
+        Left = 53
+        Height = 21
+        Top = 96
+        Width = 89
+        Caption = 'IdCadForec:'
+        Font.CharSet = ANSI_CHARSET
+        Font.Height = -16
+        Font.Pitch = fpVariable
+        Font.Quality = fqDraft
+        Font.Style = [fsBold]
+        ParentFont = False
+      end
+      object EditIdCadForec: TEdit[3]
+        Left = 160
+        Height = 23
+        Top = 96
+        Width = 56
+        TabOrder = 2
+      end
+      object Label3: TLabel[4]
+        Left = 64
+        Height = 21
+        Top = 128
+        Width = 78
+        Caption = 'CPF/CNPJ:'
+        Font.CharSet = ANSI_CHARSET
+        Font.Height = -16
+        Font.Pitch = fpVariable
+        Font.Quality = fqDraft
+        Font.Style = [fsBold]
+        ParentFont = False
+      end
+      object EditPJPF: TEdit[5]
+        Left = 160
+        Height = 23
+        Top = 126
+        Width = 168
+        TabOrder = 3
+      end
+      object Label4: TLabel[6]
+        Left = 24
+        Height = 21
+        Top = 156
+        Width = 118
+        Caption = 'Nome Fantasia:'
+        Font.CharSet = ANSI_CHARSET
+        Font.Height = -16
+        Font.Pitch = fpVariable
+        Font.Quality = fqDraft
+        Font.Style = [fsBold]
+        ParentFont = False
+      end
+      object EditNMFantasia: TEdit[7]
+        Left = 160
+        Height = 23
+        Top = 156
+        Width = 168
+        TabOrder = 4
+      end
+      object Label5: TLabel[8]
+        Left = 42
+        Height = 21
+        Top = 192
+        Width = 100
+        Caption = 'Razão Social:'
+        Font.CharSet = ANSI_CHARSET
+        Font.Height = -16
+        Font.Pitch = fpVariable
+        Font.Quality = fqDraft
+        Font.Style = [fsBold]
+        ParentFont = False
+      end
+      object EditRZSocial: TEdit[9]
+        Left = 160
+        Height = 23
+        Top = 190
+        Width = 168
+        TabOrder = 5
+      end
+      object Label6: TLabel[10]
+        Left = 67
+        Height = 21
+        Top = 224
+        Width = 75
+        Caption = 'Endereço:'
+        Font.CharSet = ANSI_CHARSET
+        Font.Height = -16
+        Font.Pitch = fpVariable
+        Font.Quality = fqDraft
+        Font.Style = [fsBold]
+        ParentFont = False
+      end
+      object EditEndereco: TEdit[11]
+        Left = 160
+        Height = 23
+        Top = 222
+        Width = 520
+        TabOrder = 6
+      end
+      object Label7: TLabel[12]
+        Left = 72
+        Height = 21
+        Top = 256
+        Width = 70
+        Caption = 'Telefone:'
+        Font.CharSet = ANSI_CHARSET
+        Font.Height = -16
+        Font.Pitch = fpVariable
+        Font.Quality = fqDraft
+        Font.Style = [fsBold]
+        ParentFont = False
+      end
+      object CBDD: TComboBox[13]
+        Left = 160
+        Height = 23
+        Top = 254
+        Width = 40
+        ItemHeight = 15
+        Items.Strings = (
+          '11'
+          '12'
+          '13'
+          '14'
+          '15'
+          '16'
+          '17'
+          '18'
+          '19'
+          '21'
+          '22'
+          '24'
+          '27'
+          '28'
+          '31'
+          '32'
+          '33'
+          '34'
+          '35'
+          '37'
+          '38'
+          '41'
+          '42'
+          '43'
+          '44'
+          '45'
+          '46'
+          '47'
+          '48'
+          '49'
+          '51'
+          '51'
+          '53'
+          '54'
+          '55'
+          '61'
+          '61'
+          '62'
+          '63'
+          '64'
+          '65'
+          '66'
+          '67'
+          '68'
+          '69'
+          '71'
+          '71'
+          '73'
+          '74'
+          '75'
+          '77'
+          '79'
+          '81'
+          '81'
+          '82'
+          '83'
+          '84'
+          '85'
+          '86'
+          '87'
+          '88'
+          '89'
+          '91'
+          '91'
+          '92'
+          '93'
+          '94'
+          '95'
+          '96'
+          '97'
+          '98'
+          '99'
+        )
+        TabOrder = 7
+      end
+      object EditFone: TEdit[14]
+        Left = 208
+        Height = 23
+        Top = 254
+        Width = 120
+        TabOrder = 8
+      end
+      object Label8: TLabel[15]
+        Left = 95
+        Height = 21
+        Top = 288
+        Width = 47
+        Caption = 'Email:'
+        Font.CharSet = ANSI_CHARSET
+        Font.Height = -16
+        Font.Pitch = fpVariable
+        Font.Quality = fqDraft
+        Font.Style = [fsBold]
+        ParentFont = False
+      end
+      object EditEmail: TEdit[16]
+        Left = 160
+        Height = 23
+        Top = 288
+        Width = 168
+        TabOrder = 9
+      end
+    end
+  end
+end

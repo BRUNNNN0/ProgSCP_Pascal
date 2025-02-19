@@ -1,0 +1,69 @@
+object OpLoginF: TOpLoginF
+  Left = 376
+  Height = 302
+  Top = 120
+  Width = 273
+  Caption = 'OpLoginF'
+  ClientHeight = 302
+  ClientWidth = 273
+  LCLVersion = '3.8.0.0'
+  object Label1: TLabel
+    Left = 24
+    Height = 21
+    Top = 97
+    Width = 47
+    Caption = 'Email:'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -16
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object Label2: TLabel
+    Left = 20
+    Height = 21
+    Top = 135
+    Width = 51
+    Caption = 'Senha:'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -16
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object EditEmailLog: TEdit
+    Left = 88
+    Height = 23
+    Top = 96
+    Width = 152
+    TabOrder = 0
+  end
+  object EditSenhaLog: TEdit
+    Left = 88
+    Height = 23
+    Top = 134
+    Width = 152
+    TabOrder = 1
+  end
+  object BtnLogin: TButton
+    Left = 20
+    Height = 25
+    Top = 192
+    Width = 220
+    Caption = 'Login'
+    TabOrder = 2
+    OnClick = BtnLoginClick
+  end
+  object Label3: TLabel
+    Left = 75
+    Height = 15
+    Top = 232
+    Width = 111
+    Caption = 'Esqueci minha senha'
+    OnClick = Label3Click
+    OnMouseLeave = Label3MouseLeave
+    OnMouseMove = Label3MouseMove
+  end
+end
